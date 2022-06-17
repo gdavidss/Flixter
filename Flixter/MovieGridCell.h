@@ -1,5 +1,5 @@
 //
-//  MovieGridController.h
+//  movieGridCell.h
 //  Flixter
 //
 //  Created by Gui David on 6/17/22.
@@ -9,9 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MovieGridController: UIViewController
-
-
+@interface movieGridCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *posterImage;
 
 @end
 

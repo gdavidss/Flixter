@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6A4ADBA8285C3B220063A266 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4ADBA7285C3B220063A266 /* DetailsViewController.m */; };
 		6A4ADBAE285CEA360063A266 /* MovieGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4ADBAD285CEA360063A266 /* MovieGridController.m */; };
+		6A4ADBB4285CFBF40063A266 /* MovieGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4ADBB3285CFBF40063A266 /* MovieGridCell.m */; };
 		6A7C4321285BD21200929103 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C4320285BD21200929103 /* MovieCell.m */; };
 		6A91048B285AEF0B00CF809C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91048A285AEF0B00CF809C /* AppDelegate.m */; };
 		6A91048E285AEF0B00CF809C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91048D285AEF0B00CF809C /* SceneDelegate.m */; };
@@ -53,6 +54,8 @@
 		6A4ADBA7285C3B220063A266 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		6A4ADBAC285CEA360063A266 /* MovieGridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieGridController.h; sourceTree = "<group>"; };
 		6A4ADBAD285CEA360063A266 /* MovieGridController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieGridController.m; sourceTree = "<group>"; };
+		6A4ADBB2285CFBF40063A266 /* MovieGridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieGridCell.h; sourceTree = "<group>"; };
+		6A4ADBB3285CFBF40063A266 /* MovieGridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieGridCell.m; sourceTree = "<group>"; };
 		6A7C431F285BD21200929103 /* MovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
 		6A7C4320285BD21200929103 /* MovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
 		6A910486285AEF0B00CF809C /* Flixter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +161,8 @@
 				6A91048C285AEF0B00CF809C /* SceneDelegate.h */,
 				6A91048D285AEF0B00CF809C /* SceneDelegate.m */,
 				6A910492285AEF0B00CF809C /* Main.storyboard */,
+				6A4ADBB2285CFBF40063A266 /* MovieGridCell.h */,
+				6A4ADBB3285CFBF40063A266 /* MovieGridCell.m */,
 				6A4ADBAC285CEA360063A266 /* MovieGridController.h */,
 				6A4ADBAD285CEA360063A266 /* MovieGridController.m */,
 				6A7C431F285BD21200929103 /* MovieCell.h */,
@@ -435,6 +440,7 @@
 				6A91049C285AEF0C00CF809C /* main.m in Sources */,
 				6A4ADBA8285C3B220063A266 /* DetailsViewController.m in Sources */,
 				6A91048E285AEF0B00CF809C /* SceneDelegate.m in Sources */,
+				6A4ADBB4285CFBF40063A266 /* MovieGridCell.m in Sources */,
 				6A9104C0285AFAF700CF809C /* MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

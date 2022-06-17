@@ -58,13 +58,8 @@
            else {
                NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
                
-               // NSLog(@"%@", dataDictionary);
                
                self.movies = dataDictionary[@"results"];
-               // NSLog(@"%@", movies);
-               for (NSDictionary *movie in self.movies) {
-                   NSLog(@"%@", movie[@"title"]);
-               }
                [self.movieTableView reloadData];
                
            }
@@ -82,8 +77,6 @@
     
     MovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"idMovieCell"];
     
-    // NSLog(@"%@", [NSString stringWithFormat:@"row: %d, section %d", indexPath.row, indexPath.section]);
-    
     NSDictionary *movie = self.movies[indexPath.row];
     cell.titleLabel.text = movie[@"title"];
     cell.synopsisLabel.text = movie[@"overview"];
@@ -91,7 +84,7 @@
     NSString *baseURLString = @"https://image.tmdb.org/t/p/w500";
     NSString *posterURLString = movie[@"poster_path"];
     NSString *fullPosterURLString = [baseURLString stringByAppendingString:posterURLString];
-    NSString *posterURL = [NSURL URLWithString:fullPosterURLString];
+    NSURL *posterURL = [NSURL URLWithString:fullPosterURLString];
     
     cell.posterImage.image = nil;
     [cell.posterImage setImageWithURL:posterURL];
