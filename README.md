@@ -42,13 +42,13 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/gallery/x3H4DUB' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![ezgif-1-978d0c67fa](https://user-images.githubusercontent.com/62527620/174408523-6cdbedb2-f21d-4e89-a5db-521c2d4747df.gif)
 
-GIF created with [Kap](https://getkap.co/).
+[Bigger visualization](https://imgur.com/gallery/x3H4DUB)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This was my very first experience building an app using Xcode and Objective-C. The layout (font, spacing, etc) will be adjusted in a second iteration.
 
 ## Credits
 
@@ -58,7 +58,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2022 Guilherme David Santos Silva
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
