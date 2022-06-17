@@ -1,9 +1,9 @@
 
-# Project 1 - *Name of App Here*
+# Project 1 - Flixter
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flixter is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **30** hours spent in total
 
 ## User Stories
 
@@ -35,14 +35,14 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. I am really curious on how to implement a search bar. I'm very fascinated with search and have an idea to include a search feature in one of my app ideas.
+2. The TAs said not to worry much about layout because we will go over it, but I would love to work on it programatically.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/x3H4DUB' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
