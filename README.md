@@ -29,10 +29,6 @@ The following **optional** features are implemented:
 - [ ] Customize the UI.
 - [ ] Run your app on a real device.
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. I am really curious on how to implement a search bar. I'm very fascinated with search and have an idea to include a search feature in one of my app ideas.
