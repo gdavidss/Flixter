@@ -17,7 +17,7 @@
     [super viewDidLoad];
    
     self.expandedTitleLabel.text = self.detailDict[@"title"];
-    self.expandedSynopsisLabel = self.detailDict[@"overview"];
+    self.expandedSynopsisLabel.text = self.detailDict[@"overview"];
    
     NSString *baseURLString = @"https://image.tmdb.org/t/p/w500";
     NSString *posterURLString = self.detailDict[@"poster_path"];
@@ -27,7 +27,6 @@
     self.expandedSmallPosterImage.image = nil;
     self.expandedBigPosterImage.image = nil;
 
-     
     [self.expandedSmallPosterImage setImageWithURL:posterURL];
     [self.expandedBigPosterImage setImageWithURL:posterURL];
 
