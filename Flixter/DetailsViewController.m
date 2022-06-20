@@ -9,6 +9,10 @@
 #import "UIImageView+AFNetworking.h"
 
 @interface DetailsViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *expandedTitleLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *expandedSmallPosterImage;
+@property (weak, nonatomic) IBOutlet UIImageView *expandedBigPosterImage;
+@property (weak, nonatomic) IBOutlet UILabel *expandedSynopsisLabel;
 @end
 
 @implementation DetailsViewController

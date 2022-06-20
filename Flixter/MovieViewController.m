@@ -11,7 +11,6 @@
 #import "DetailsViewController.h"
 
 @interface MovieViewController () <UITableViewDataSource, UITableViewDelegate>
-// Should this be empty and all properties be declared in the header file?
 @property (weak, nonatomic) IBOutlet UITableView *movieTableView;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (nonatomic, strong) NSArray *movies;
