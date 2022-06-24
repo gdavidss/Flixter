@@ -20,20 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    self.expandedTitleLabel.text = self.detailDict[@"title"];
-    self.expandedSynopsisLabel.text = self.detailDict[@"overview"];
-   
-    NSString *baseURLString = @"https://image.tmdb.org/t/p/w500";
-    NSString *posterURLString = self.detailDict[@"poster_path"];
-    NSString *fullPosterURLString = [baseURLString stringByAppendingString:posterURLString];
-    NSURL *posterURL = [NSURL URLWithString:fullPosterURLString];
-    
+    self.expandedTitleLabel.text = self.movie.title;
+    self.expandedSynopsisLabel.text = self.movie.synopsis;
     self.expandedSmallPosterImage.image = nil;
-    self.expandedBigPosterImage.image = nil;
-
-    [self.expandedSmallPosterImage setImageWithURL:posterURL];
-    [self.expandedBigPosterImage setImageWithURL:posterURL];
-
+    if (self.movie.posterUrl != nil) {
+        [self.expandedBigPosterImage setImageWithURL:self.movie.posterUrl];
+        [self.expandedSmallPosterImage setImageWithURL:self.movie.posterUrl];
+    }
 }
 
 /*

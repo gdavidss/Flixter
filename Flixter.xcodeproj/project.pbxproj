@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A34C87028661F710047D286 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A34C86F28661F710047D286 /* Movie.m */; };
+		6A34C87328663DA40047D286 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A34C87228663DA40047D286 /* APIManager.m */; };
 		6A4ADBA8285C3B220063A266 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4ADBA7285C3B220063A266 /* DetailsViewController.m */; };
 		6A4ADBAE285CEA360063A266 /* MovieGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4ADBAD285CEA360063A266 /* MovieGridController.m */; };
 		6A4ADBB4285CFBF40063A266 /* MovieGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4ADBB3285CFBF40063A266 /* MovieGridCell.m */; };
@@ -50,6 +52,10 @@
 		4B1DC8631CAFBBE79EB53197 /* Pods-Flixter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixter.debug.xcconfig"; path = "Target Support Files/Pods-Flixter/Pods-Flixter.debug.xcconfig"; sourceTree = "<group>"; };
 		627783F6775BB771CB580035 /* Pods-Flixter-FlixterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixter-FlixterUITests.release.xcconfig"; path = "Target Support Files/Pods-Flixter-FlixterUITests/Pods-Flixter-FlixterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		62E7ECC8735939B871BC14F7 /* Pods-FlixterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixterTests.release.xcconfig"; path = "Target Support Files/Pods-FlixterTests/Pods-FlixterTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A34C86E28661F710047D286 /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		6A34C86F28661F710047D286 /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		6A34C87128663DA40047D286 /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		6A34C87228663DA40047D286 /* APIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
 		6A4ADBA6285C3B220063A266 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		6A4ADBA7285C3B220063A266 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		6A4ADBAC285CEA360063A266 /* MovieGridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieGridController.h; sourceTree = "<group>"; };
@@ -166,9 +172,13 @@
 				6A4ADBAC285CEA360063A266 /* MovieGridController.h */,
 				6A4ADBAD285CEA360063A266 /* MovieGridController.m */,
 				6A7C431F285BD21200929103 /* MovieCell.h */,
+				6A34C87128663DA40047D286 /* APIManager.h */,
+				6A34C87228663DA40047D286 /* APIManager.m */,
 				6A7C4320285BD21200929103 /* MovieCell.m */,
 				6A9104BE285AFAF700CF809C /* MovieViewController.h */,
 				6A9104BF285AFAF700CF809C /* MovieViewController.m */,
+				6A34C86E28661F710047D286 /* Movie.h */,
+				6A34C86F28661F710047D286 /* Movie.m */,
 				6A4ADBA6285C3B220063A266 /* DetailsViewController.h */,
 				6A4ADBA7285C3B220063A266 /* DetailsViewController.m */,
 				6A910495285AEF0C00CF809C /* Assets.xcassets */,
@@ -438,8 +448,10 @@
 				6A4ADBAE285CEA360063A266 /* MovieGridController.m in Sources */,
 				6A7C4321285BD21200929103 /* MovieCell.m in Sources */,
 				6A91049C285AEF0C00CF809C /* main.m in Sources */,
+				6A34C87328663DA40047D286 /* APIManager.m in Sources */,
 				6A4ADBA8285C3B220063A266 /* DetailsViewController.m in Sources */,
 				6A91048E285AEF0B00CF809C /* SceneDelegate.m in Sources */,
+				6A34C87028661F710047D286 /* Movie.m in Sources */,
 				6A4ADBB4285CFBF40063A266 /* MovieGridCell.m in Sources */,
 				6A9104C0285AFAF700CF809C /* MovieViewController.m in Sources */,
 			);
