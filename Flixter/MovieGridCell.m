@@ -1,12 +1,12 @@
 //
-//  movieGridCell.m
+//  MovieGridCell.m
 //  Flixter
 //
-//  Created by Gui David on 6/17/22.
+//  Created by Gui David on 7/4/22.
 //
 
 #import "MovieGridCell.h"
 
-@implementation movieGridCell
+@implementation MovieGridCell
 
 @end

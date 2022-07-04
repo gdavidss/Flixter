@@ -1,16 +1,15 @@
 //
-//  movieGridCell.h
+//  MovieGridCell.h
 //  Flixter
 //
-//  Created by Gui David on 6/17/22.
+//  Created by Gui David on 7/4/22.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface movieGridCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *posterImage;
+@interface MovieGridCell : NSObject
 
 @end
 
